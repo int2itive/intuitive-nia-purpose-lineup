@@ -1,0 +1,227 @@
+@import url('https://api.fonts.coollabs.io/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://api.fonts.coollabs.io/css2?family=Montserrat&display=swap');
+
+@import url('https://api.fonts.coollabs.io/css2?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, 
+*::before, 
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(240,27.6%,12%);
+}
+
+h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 3rem;
+  font-size: calc(3vw + 1rem);
+  color: #b26422;
+  text-align: center;
+}
+  
+.title {
+  margin: 0 0 0;
+  font-weight: 900;
+  line-height: 1.6;
+}
+
+.main__header p {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: .75em;
+  color: #c0c0c0;
+  margin: 0 0 1rem;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  width: calc(100vw - 3rem);
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.artist_display__card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 2em;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+/*   border: 1px solid #c0c0c0; */
+}
+
+.artist_img_wrapper, .artist_bio_wrapper {
+  position: relative;
+/*   width: 50%   */
+  flex: 1 1 50%;
+
+}
+
+.artist_img_wrapper {
+  position: relative;
+/*   border: 1px solid #c0c0c0;
+  border-bottom-left-radius: 5px; */
+}
+
+.artist_img_wrapper::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(0deg,#191c21 0,rgba(0,0,0,.8) 10%,rgba(25,28,33,0) 60%) 50% no-repeat;
+}
+
+.artist_img_wrapper img {
+  width: 100%;
+  height: auto;
+}
+
+.artist_img_title {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  width: 100%;
+  justify-content: start;
+  bottom: 1%;
+/*  bottom: 0;*/
+  left: 0;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: .79;
+  font-weight: 300;
+  color: #c0c0c0;
+  z-index: 2;
+/*   translate: calc(50% - 8px) 0; */
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+/*   border: 1px solid white; */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.artist_img_title h3 {
+  position: relative;
+  grid-column: 1 / 5;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  width: fit-content;
+/*   align-content: center;
+  border: 1px solid white; */
+/*   margin-right: 12px; */
+}
+
+.artist_img_title h3::before {
+  position: absolute;
+  content: '';
+  display: block;
+  height: 2px;
+  width: 15px;
+  background-color: #b26422;
+  top: -2px;
+  left: calc(25% + 2px);
+  left: 0;
+}
+
+.artist_img_title h3::after {
+  position: absolute;
+  content: '';
+  display: block;
+  height: 2px;
+  width: 15px;
+  background-color: #b26422;
+  bottom: 0;
+  right: calc(25% + 2px);
+  right: 0;
+}
+
+.artist_img_title p {
+/*   padding-left: .5em; */
+  grid-column: 4 / -1;
+/*   justify-self: start; */
+  font-size: .75em;
+  color: #b26422;
+  padding-top: 1px;
+  transform: translate(0, -150%);
+}
+
+.artist_img_wrapper::after {
+  position: absolute;
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+/*   background-color: rgba(0, 0 ,0, 0.5); */
+/*   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent); */
+/*     background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0) 40%,
+    rgba(0, 0, 0, 0.8) 100%
+  ); */
+}
+
+.artist_bio_wrapper {
+  position: relative;
+  padding: 4em 2em;
+  font-family: 'Montserrat', sans-serif;
+/*   font-family: 'Open Sans', sans-serif; */
+  font-size: .85em;
+  font-weight: 700;
+/*   background-color: #000; */
+  background-image: linear-gradient(to bottom, rgba(34, 34, 61, 0.85), rgba(0, 0, 0, 0.9)),
+    url('https://ik.imagekit.io/ghow2otb3rc/etc-assets-c0vmembers/tumblr_195698382fa906229ede8cec533791a4_7677d440_1280_kkz-ER4Vt.jpg');
+  background-position: center center;
+  background-size: 300%;
+  background-repeat: no-repeat;
+  color: #c0c0c0;
+/*   filter: blur(4px); */
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+/*   border: 1px solid white; */
+}
+
+.artist_bio_wrappar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.artist_bio_wrapper p {
+  margin-bottom: 1em;
+}
+
+.artist_bio_wrapper > .rbg_logo__wrapper {
+  position: absolute;
+  display: block;
+  bottom: 10px;
+  right: 5px;
+  height: 25px;
+  width: 25px;
+}
+
+.artist_bio_wrapper .rbg_logo__wrapper img {
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
+}
+
+@media (min-width: 468px) {
+  .artist_display__card {
+    flex-direction: row;
+  }
+}
