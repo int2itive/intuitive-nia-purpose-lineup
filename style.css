@@ -251,4 +251,8 @@ img {
   .artist_img_title p {
     transform: translate(0, -140%);
   }
+  .container > .artist_display__card:nth-of-type(2) .artist_img_title p:nth-child(2) {
+    transform: translate(0, -144%);
+  /*  border: 1px solid #c0c0c0;*/
+  }
 }
