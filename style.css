@@ -199,6 +199,11 @@ img {
 /*  border: 1px solid #c0c0c0;*/
 }
 
+.container > .artist_display__card:nth-of-type(9) .artist_img_wrapper .artist_img_title > p {
+  transform: translate(50px, -125%);
+/*  border: 1px solid #c0c0c0;*/
+}
+
 .artist_img_wrapper::after {
   position: absolute;
   content: '';
@@ -293,6 +298,10 @@ img {
   }
   .container > .artist_display__card:nth-of-type(2) .artist_img_title p:nth-child(2) {
     transform: translate(0, -144%);
+  /*  border: 1px solid #c0c0c0;*/
+  }
+  .container > .artist_display__card:nth-of-type(9) .artist_img_title p:nth-child(2) {
+    transform: translate(50px, -144%);
   /*  border: 1px solid #c0c0c0;*/
   }
 }
