@@ -28,6 +28,10 @@ h2 {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 .main__header {
   position: relative;
   display: flex;
@@ -35,6 +39,9 @@ h2 {
   justify-content: space-around;
   align-items: center;
   padding: .5em 0;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-top: 1px solid transparent;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 /*  margin-bottom: 1.5em;*/
@@ -78,13 +85,49 @@ img:nth-of-type(1) {
   text-align: center;
 }
 
+.main__header .rbg_event__meta {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* border: 1px solid white; */
+  font-family: 'Candara', sans-serif;
+  color: #b9661f;
+  margin-bottom: .5em;
+}
+
+.main__header .rbg_event__meta > h2 {
+  /* color: blue; */
+  font-family: 'Candara', sans-serif;
+  font-size: 1.5em;
+  font-size: calc(1vw + .75rem);
+  text-transform: uppercase;
+  margin-bottom: .3em;
+}
+
+.main__header .rbg_event__meta > h3 {
+  /* color: blue; */
+  font-family: 'Candara', sans-serif;
+  font-size: 1.5em;
+  font-size: calc(1vw + .45rem);
+  text-transform: uppercase;
+  margin-bottom: .3em;
+}
+
 .container {
   max-width: 600px;
   width: calc(100vw - 3rem);
   margin: 0 auto;
   padding: 2rem 0;
+  overflow: hidden;
+}
+
+.wrapper {
+  position: relative;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+
 }
 
 .artist_display__card {
@@ -304,4 +347,8 @@ img {
     transform: translate(50px, -144%);
   /*  border: 1px solid #c0c0c0;*/
   }
+  .main__header .rbg_event__meta {
+    margin-bottom: .75em;
+  }
+
 }
