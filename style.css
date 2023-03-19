@@ -196,6 +196,7 @@ img:nth-of-type(1) {
 .artist_img_wrapper img {
   width: 100%;
   height: auto;
+  object-fit: cover;
 }
 
 .artist_img_title {
