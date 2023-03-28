@@ -207,7 +207,7 @@ img:nth-of-type(1) {
   grid-template-columns: repeat(8, 1fr);
   width: 100%;
   justify-content: start;
-  bottom: 1%;
+  bottom: 10%;
 /*  bottom: 0;*/
   left: 0;
   font-family: 'Bebas Neue', sans-serif;
@@ -269,7 +269,7 @@ img {
   font-size: .75em;
   color: #b26422;
   padding-top: 1px;
-  transform: translate(0, -128%);
+  transform: translate(0, -28%);
 }
 
 .container > .artist_display__card:nth-of-type(2) p {
