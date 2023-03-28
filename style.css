@@ -418,8 +418,9 @@ img {
     flex-direction: row;
   }
   .artist_img_title h3 {
+    line-height: 1;
     font-size: 1.17em;
-    font-size: .9em;    
+    font-size: .85em;   
   }
   .artist_img_title p {
     transform: translate(0, -140%);
