@@ -228,7 +228,6 @@ img {
 .artist_img_title h3 {
   font-family: 'Bungee';
   font-size: 1em;
-  font-size: .65em;
   position: relative;
   grid-column: 1 / 5;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
@@ -420,6 +419,7 @@ img {
   }
   .artist_img_title h3 {
     font-size: 1.17em;
+    font-size: .9em;    
   }
   .artist_img_title p {
     transform: translate(0, -140%);
