@@ -228,6 +228,7 @@ img {
 .artist_img_title h3 {
   font-family: 'Bungee';
   font-size: 1em;
+  line-height: 1;
   position: relative;
   grid-column: 1 / 5;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
@@ -263,7 +264,7 @@ img {
 
 .artist_img_title p {
 /*   padding-left: .5em; */
-  grid-column: 4 / -1;
+  grid-column: 5 / -1;
 /*   justify-self: start; */
   font-size: .75em;
   color: #b26422;
