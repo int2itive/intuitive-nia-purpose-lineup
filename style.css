@@ -269,7 +269,7 @@ img {
   font-size: .7em;
   color: #b26422;
   padding-top: 1px;
-  transform: translate(0, -22%);
+  transform: translate(0, -20%);
 }
 
 .container > .artist_display__card:nth-of-type(2) p {
