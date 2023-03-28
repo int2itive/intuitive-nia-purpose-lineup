@@ -227,7 +227,7 @@ img {
 
 .artist_img_title h3 {
   font-family: 'Bungee';
-  font-size: 1em;
+  font-size: .9em;
   line-height: 1;
   position: relative;
   grid-column: 1 / 5;
@@ -269,7 +269,7 @@ img {
   font-size: .75em;
   color: #b26422;
   padding-top: 1px;
-  transform: translate(0, -28%);
+  transform: translate(0, -24%);
 }
 
 .container > .artist_display__card:nth-of-type(2) p {
