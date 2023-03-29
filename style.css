@@ -303,6 +303,9 @@ img {
 .artist_bio_wrapper {
   position: relative;
   padding: 4em 2em;
+  width: 94%;
+  margin: 0 auto;
+  margin-top: -40px;  
   font-family: 'Montserrat', sans-serif;
 /*   font-family: 'Open Sans', sans-serif; */
   font-size: .85em;
@@ -318,6 +321,7 @@ img {
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   overflow: hidden;
+  box-shadow: 0px 1px 5px 0px rgba(255, 255, 255, 0.2);
 /*   border: 1px solid white; */
 }
 
@@ -434,6 +438,12 @@ img {
     transform: translate(50px, -144%);
   /*  border: 1px solid #c0c0c0;*/
   }
+  
+  .artist_bio_wrapper {
+    width: 100%;
+    margin: 0;
+  }
+    
   .main__header .rbg_event__meta {
     margin-bottom: .75em;
   }
