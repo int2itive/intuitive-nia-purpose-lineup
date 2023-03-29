@@ -348,7 +348,7 @@ img {
   width: 25px;
 }
 
-.rbg_logo-lrg__wrapper {
+.artist_bio_wrapper > .rbg_logo-lrg__wrapper {
   position: absolute;
   display: block;
   top: 0;
@@ -364,7 +364,7 @@ img {
   opacity: 0.7;
 }
 
-.rbg_logo-lrg__wrapper img {
+.artist_bio_wrapper > .rbg_logo-lrg__wrapper img {
   width: 100%;
   height: auto;
   opacity: 0.9;
