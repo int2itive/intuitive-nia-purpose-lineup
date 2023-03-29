@@ -351,6 +351,7 @@ img {
 .artist_bio_wrapper > .rbg_logo-lrg__wrapper {
   position: absolute;
   display: block;
+  text-align: center;
   top: 0;
   left: 0;
   height: 100%;
@@ -368,6 +369,7 @@ img {
   width: 100%;
   height: auto;
   opacity: 0.9;
+  transform: scale(2);
 }
 
 .artist_bio_wrapper .artist_neon__meta {
