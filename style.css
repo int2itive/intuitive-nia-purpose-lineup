@@ -348,12 +348,12 @@ img {
   width: 25px;
 }
 
-.artist_bio_wrapper > .rbg_logo-lrg__wrapper {
-  position: absolute;
+.wrapper > .rbg_logo-lrg__wrapper {
+/*   position: absolute; */
   display: block;
-  text-align: center;
   top: 0;
   left: 0;
+  bottom: 0;
   height: 100%;
   width: 100%;
   padding: .5em 1.75em 2em 2em;
@@ -365,11 +365,10 @@ img {
   opacity: 0.7;
 }
 
-.artist_bio_wrapper > .rbg_logo-lrg__wrapper img {
+.wrapper .rbg_logo-lrg__wrapper img {
   width: 100%;
   height: auto;
   opacity: 0.9;
-  transform: scale(2);
 }
 
 .artist_bio_wrapper .artist_neon__meta {
