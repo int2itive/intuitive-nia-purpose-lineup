@@ -384,7 +384,7 @@ img {
 }
 
 .artist_meta__text p {
-  text-transfrom:uppercase;
+  text-transform: uppercase;
   color: #dd8e4c;
   font-family: 'Bebas Neue', Helvetica, Arial, sans-serif;
   font-family: 'Wire One';
